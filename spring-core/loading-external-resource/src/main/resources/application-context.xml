@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="customResourceLoader" class="edu.training.spring.loading_external_resource_sample.CustomResourceLoader">
+		<property name="banner">
+			<value>classpath:application-context.xml</value>
+		</property>
+	</bean>
+
+</beans>
